@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Durasi vs Keberhasilan Kampanye</title>
+  <link rel="stylesheet" href="nomor_5.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Durasi Panggilan - Kampanye Berhasil vs Gagal</h1>
+    <input type="file" id="csvFile" accept=".csv">
+
+    <h2>Kampanye Berhasil (Yes)</h2>
+    <canvas id="yesChart"></canvas>
+
+    <h2>Kampanye Gagal (No)</h2>
+    <canvas id="noChart"></canvas>
+  </div>
+  <script src="nomor_5.js"></script>
+</body>
+</html>

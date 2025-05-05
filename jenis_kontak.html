@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaruh Jenis Kontak terhadap Keberhasilan Kampanye</title>
+    <link rel="stylesheet" href="jenis_kontak.css">
+</head>
+<body>
+    <div id="chart-container">
+        <h1>Pengaruh Jenis Kontak terhadap Keberhasilan Kampanye</h1>
+        <svg id="bar-chart" width="800" height="400"></svg>
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #2ecc71;"></div>
+                <span>Cellular</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #e74c3c;"></div>
+                <span>Telephone</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #3498db;"></div>
+                <span>Unknown</span>
+            </div>
+        </div>
+        <div class="chart-footer">
+            Visualisasi menunjukkan jumlah nasabah yang merespons positif berdasarkan jenis kontak
+        </div>
+    </div>
+    
+    <div class="tooltip"></div>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="jenis_kontak.js"></script>
+</body>
+</html>
